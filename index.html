@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<section class="accordion">
+  <div class="container">
+    <!-- title -->
+    <div class="title">
+      <h1>Документы</h1>
+      <div class="vector">
+        <div class="far fa-bookmark bookmark"></div>
+        <div class="type">
+          <i class="fas fa-plus"></i>
+          Новый тип
+        </div>
+        <div class="doc">
+          <i class="fas fa-plus"></i>
+          Новый документ
+        </div>
+      </div>
+    </div>
+    <!-- search form -->
+    <form>
+      <label for="search-box" class="fas fa-search search"></label>
+      <input type="search" placeholder="Поиск" id="search-box">
+   </form>
+    <!-- accordion  -->
+    <div class="accordion-wrap">
+
+      <div class="accordion">
+        <div class="list">
+          <i class="fas fa-angle-down"></i>
+          <h4>Обязательные для всех</h4>
+          <img src="./img/color.svg" alt="">
+          <h5>Документы, обязательные для всех сотрудников без исключения</h5>
+          <div class="icons">
+            <div class="fas fa-pen" id="pen"></div>
+            <div class="far fa-trash-alt delete" id="delete"></div>
+            <div class="fas fa-arrows-alt-v" id="arrow"></div>
+          </div>
+        </div>
+        <div class="accordion-text">
+          <div class="text">
+            <h5>Паспорт</h5>
+            <img src="./img/Ellipse 18.svg" alt="">
+            <h6>Обязательный</h6>
+            <p>Для всех</p>
+            <div class="icons">
+              <div class="fas fa-pen" id="pen"></div>
+              <div class="far fa-trash-alt" id="delete"></div>
+              <div class="fas fa-arrows-alt-v" id="arrow"></div>
+            </div>
+          </div>
+          <div class="text">
+            <h5>ИНН</h5>
+            <h6>Обязательный</h6>
+            <p>Для всех</p>
+            <div class="icons">
+              <div class="fas fa-pen" id="pen"></div>
+              <div class="far fa-trash-alt" id="delete"></div>
+              <div class="fas fa-arrows-alt-v" id="arrow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="list">
+          <i class="fas fa-angle-down"></i>
+          <h4>Обязательные для трудоустройства</h4>
+          <h5>Документы, без которых невозможно трудоустройство человека на какую бы то ни было должность в компании вне зависимости от граж</h5>
+          <div class="icons">
+            <div class="fas fa-pen" id="pen"></div>
+            <div class="far fa-trash-alt" id="delete"></div>
+            <div class="fas fa-arrows-alt-v" id="arrow"></div>
+          </div>
+        </div>
+        <div class="accordion-text">
+          <div class="text">
+            <h5>Диплом</h5>
+            <h6>Обязательный</h6>
+            <p>Для всех</p>
+            <div class="icons">
+              <div class="fas fa-pen" id="pen"></div>
+              <div class="far fa-trash-alt" id="delete"></div>
+              <div class="fas fa-arrows-alt-v" id="arrow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="accordion">
+        <div class="list">
+          <i class="fas fa-angle-down"></i>
+          <h4>Специальные</h4>
+          <div class="icons">
+            <div class="fas fa-pen" id="pen"></div>
+            <div class="far fa-trash-alt" id="delete"></div>
+            <div class="fas fa-arrows-alt-v" id="arrow"></div>
+          </div>
+        </div>
+        <div class="accordion-text">
+          <div class="text">
+            <h5>ИНН</h5>
+            <h6>Обязательный</h6>
+            <p>Для всех</p>
+            <div class="icons">
+              <div class="fas fa-pen" id="pen"></div>
+              <div class="far fa-trash-alt" id="delete"></div>
+              <div class="fas fa-arrows-alt-v" id="arrow"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  -->
+    <div class="info">
+      <div class="info-content">
+        <h5>Тестовое задание кандидата</h5>
+        <p>Россия, Белоруссия, Украина, администратор филиала, повар-сушист, повар-пиццмейкер, повар горячего цеха</p>
+        <div class="icons">
+          <div class="fas fa-pen" id="pen"></div>
+          <div class="far fa-trash-alt" id="delete"></div>
+          <div class="fas fa-arrows-alt-v" id="arrow"></div>
+        </div>
+      </div>
+      <div class="info-content">
+        <h5>Трудовой договор</h5>
+        <img src="./img/problems.svg" alt="">
+        <div class="icons">
+          <div class="fas fa-pen" id="pen"></div>
+          <div class="far fa-trash-alt" id="delete"></div>
+          <div class="fas fa-arrows-alt-v" id="arrow"></div>
+        </div>
+      </div>
+      <div class="info-content">
+        <h5>Мед. книжка</h5>
+        <div class="icons">
+          <div class="fas fa-pen" id="pen"></div>
+          <div class="far fa-trash-alt" id="delete"></div>
+          <div class="fas fa-arrows-alt-v" id="arrow"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="js/script.js"></script>
+</body>
+</html>
